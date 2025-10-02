@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item":"ingotmod:cherryiron_block"
+    }
+  ],
+  "result":{
+    "item": "ingotmod:cherryiron_ingot",
+    "count": 9
+  }
+}

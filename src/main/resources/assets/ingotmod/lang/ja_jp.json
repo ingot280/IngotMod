@@ -1,0 +1,10 @@
+{
+  "item.ingotmod.cherryiron_ingot": "桜鉄インゴット",
+  "item.ingotmod.melon_ingot": "スイカインゴット",
+  "item.ingotmod.metal_detector": "鉱石探知機",
+
+  "creativetab.ingot_tab": "インゴットmod",
+
+  "block.ingotmod.cherryiron_block": "桜鉄ブロック",
+  "block.ingotmod.melon_block": "スイカブロック"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item":"ingotmod:honeycomb_ingot_block"
+    }
+  ],
+  "result":{
+    "item": "ingotmod:honeycomb_ingot",
+    "count": 9
+  }
+}

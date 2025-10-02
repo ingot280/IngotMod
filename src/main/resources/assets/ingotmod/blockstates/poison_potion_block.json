@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ingotmod:block/poison_potion_block"
+    }
+  }
+}
