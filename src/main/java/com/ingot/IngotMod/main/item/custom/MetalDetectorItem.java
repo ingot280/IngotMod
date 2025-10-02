@@ -32,21 +32,12 @@ public class MetalDetectorItem extends Item {
                 if(isValuableBlock(state)){
                     outputValuableCoordinates(positionClicked.below(i),player,state.getBlock(),pContext);
                     foundBlock = true;
-
-//                            player.broadcastBreakEvent(player.getUsedItemHand()); // 何かブロックを見つけたら耐久減少
-//                           pContext.getItemInHand().hurtAndBreak(1, pContext.getPlayer(),
-//                    player -> player.broadcastBreakEvent(player.getUsedItemHand()));
-//                    break;
                 }
             }
             if (!foundBlock) {
-                player.sendSystemMessage(Component.literal("No valuabled Found!"));
+                player.sendSystemMessage(Component.translatable("item.ingotmod.metaldetectoritem.blocknotfound"));
             }
         }
-
-//        pContext.getItemInHand().hurtAndBreak(1, pContext.getPlayer(),
-//                player -> player.broadcastBreakEvent(player.getUsedItemHand()));
-
         return InteractionResult.SUCCESS;
     }
 

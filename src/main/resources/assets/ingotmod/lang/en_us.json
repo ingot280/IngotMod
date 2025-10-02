@@ -4,6 +4,7 @@
   "item.ingotmod.honeycomb_ingot": "HoneyComb ingot",
   "item.ingotmod.poison_potion_ingot": "Poison ingot",
   "item.ingotmod.metal_detector": "Metal detector",
+  "item.ingotmod.metaldetectoritem.blocknotfound": "No valuable Found!",
 
   "creativetab.ingot_tab": "Ingot Mod",
 
