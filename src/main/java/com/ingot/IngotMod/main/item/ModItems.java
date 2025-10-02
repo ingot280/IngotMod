@@ -19,6 +19,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> POISON_POTION_INGOT = ITEMS.register("poison_potion_ingot",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> LAPIS_INGOT = ITEMS.register("lapis_ingot",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
                 () -> new MetalDetectorItem(new Item.Properties().durability(64)));
 

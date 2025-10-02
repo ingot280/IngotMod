@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.MELON_INGOT.get());
                         pOutput.accept(ModItems.HONEYCOMB_INGOT.get());
                         pOutput.accept(ModItems.POISON_POTION_INGOT.get());
+                        pOutput.accept(ModItems.LAPIS_INGOT.get());
 //                        Vanilla Items
                         pOutput.accept(Items.GOLD_INGOT);
                         pOutput.accept(Items.IRON_INGOT);
@@ -34,6 +35,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.MELON_BLOCK.get());
                         pOutput.accept(ModBlocks.HONEYCOMB_INGOT_BLOCK.get());
                         pOutput.accept(ModBlocks.POISON_POTION_BLOCK.get());
+                        pOutput.accept(ModBlocks.LAPIS_INGOT_BLOCK.get());
 //                        Other
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
 

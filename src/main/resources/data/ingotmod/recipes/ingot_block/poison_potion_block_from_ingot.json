@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item":"ingotmod:poison_potion_ingot"
+    }
+  },
+  "result":{
+    "item": "ingotmod:poison_potion_block",
+    "count": 1
+  }
+}

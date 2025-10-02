@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item":"ingotmod:poison_potion_block"
+    }
+  ],
+  "result":{
+    "item": "ingotmod:poison_potion_ingot",
+    "count": 9
+  }
+}

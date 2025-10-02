@@ -1,6 +1,7 @@
 package com.ingot.IngotMod.main.block;
 
 import com.ingot.IngotMod.main.IngotMod;
+import com.ingot.IngotMod.main.block.custom.LapisBlock;
 import com.ingot.IngotMod.main.block.custom.PoisonBlock;
 import com.ingot.IngotMod.main.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -30,6 +31,8 @@ public class ModBlocks {
             ()-> new Block(BlockBehaviour.Properties.copy(Blocks.HONEYCOMB_BLOCK)));
     public static final RegistryObject<Block> POISON_POTION_BLOCK = registerBlock("poison_potion_block",
             ()-> new PoisonBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)));
+    public static final RegistryObject<Block> LAPIS_INGOT_BLOCK = registerBlock("lapis_ingot_block",
+            ()-> new LapisBlock(BlockBehaviour.Properties.copy(Blocks.LAPIS_BLOCK)));
 
     public static final RegistryObject<Block> EXAMPLE_ORE = registerBlock("example_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)

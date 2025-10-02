@@ -26,9 +26,6 @@ public class IngotMod {
         modEventBus.addListener(this::addCreative);
     }
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(ModItems.CHERRYIRON_INGOT);
-            event.accept(ModItems.MELON_INGOT);
-        }
+        
     }
 }
