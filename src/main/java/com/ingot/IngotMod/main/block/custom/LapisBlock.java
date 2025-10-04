@@ -9,12 +9,9 @@ public class LapisBlock extends Block {
     public LapisBlock(Properties pProperties) {
         super(pProperties);
     }
-//        float enchatPowerBonus = 6f;
 
     @Override
     public float getEnchantPowerBonus(BlockState state, LevelReader level, BlockPos pos) {
-//        return super.getEnchantPowerBonus(state, level, pos);
-//        return super.getEnchantPowerBonus(state, level, pos);
         return 3f;
     }
 }
