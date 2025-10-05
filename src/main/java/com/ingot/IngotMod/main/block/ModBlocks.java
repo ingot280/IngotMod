@@ -3,6 +3,7 @@ package com.ingot.IngotMod.main.block;
 import com.ingot.IngotMod.main.IngotMod;
 import com.ingot.IngotMod.main.block.custom.LapisBlock;
 import com.ingot.IngotMod.main.block.custom.PoisonBlock;
+import com.ingot.IngotMod.main.block.custom.SoundBlock;
 import com.ingot.IngotMod.main.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -24,15 +25,17 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, IngotMod.MOD_ID);
 
     public static final RegistryObject<Block> CHERRYIRON_BLOCK = registerBlock("cherryiron_block",
-            ()-> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.CHERRY_WOOD)));
+            ()-> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.CHERRY_WOOD).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> MELON_BLOCK = registerBlock("melon_block",
-            ()-> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.WOOD)));
+            ()-> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.WOOD).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> HONEYCOMB_INGOT_BLOCK = registerBlock("honeycomb_ingot_block",
             ()-> new Block(BlockBehaviour.Properties.copy(Blocks.HONEYCOMB_BLOCK)));
     public static final RegistryObject<Block> POISON_POTION_BLOCK = registerBlock("poison_potion_block",
             ()-> new PoisonBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)));
     public static final RegistryObject<Block> LAPIS_INGOT_BLOCK = registerBlock("lapis_ingot_block",
-            ()-> new LapisBlock(BlockBehaviour.Properties.copy(Blocks.LAPIS_BLOCK)));
+            ()-> new LapisBlock(BlockBehaviour.Properties.copy(Blocks.LAPIS_BLOCK).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            ()-> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.LAPIS_BLOCK).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> EXAMPLE_ORE = registerBlock("example_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)

@@ -4,12 +4,14 @@
   "item.ingotmod.lapis_ingot": "Lapis ingot",
   "item.ingotmod.honeycomb_ingot": "HoneyComb ingot",
   "item.ingotmod.poison_potion_ingot": "Poison ingot",
+  "item.ingotmod.sakuramochi_ingot": "Sakuramochi ingot",
   "item.ingotmod.metal_detector": "Metal detector",
   "item.ingotmod.metaldetectoritem.blocknotfound": "No valuable Found!",
 
   "creativetab.ingot_tab": "Ingot Mod",
 
   "block.ingotmod.cherryiron_block": "Block of Cherryiron",
+  "block.ingotmod.sound_block": "Sound Block",
   "block.ingotmod.melon_block": "Block of Melon",
   "block.ingotmod.lapis_ingot_block": "Block of Lapis Ingot",
   "block.ingotmod.honeycomb_ingot_block": "Block of Honeycomb Ingot",
