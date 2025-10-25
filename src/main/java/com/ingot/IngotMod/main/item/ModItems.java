@@ -1,7 +1,9 @@
 package com.ingot.IngotMod.main.item;
 
 import com.ingot.IngotMod.main.IngotMod;
+import com.ingot.IngotMod.main.item.custom.FuelItem;
 import com.ingot.IngotMod.main.item.custom.MetalDetectorItem;
+import com.ingot.IngotMod.main.item.custom.SakuramochiItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -22,9 +24,11 @@ public class ModItems {
     public static final RegistryObject<Item> LAPIS_INGOT = ITEMS.register("lapis_ingot",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
-                () -> new MetalDetectorItem(new Item.Properties().durability(64)));
-public static final RegistryObject<Item> SAKURAMOCHI_INGOT = ITEMS.register("sakuramochi_ingot",
-                () -> new Item(new Item.Properties().food(ModFoods.SAKURAMOCHI)));
+            () -> new MetalDetectorItem(new Item.Properties().durability(64)));
+    public static final RegistryObject<Item> SAKURAMOCHI_INGOT = ITEMS.register("sakuramochi_ingot",
+            () -> new SakuramochiItem(new Item.Properties().food(ModFoods.SAKURAMOCHI)));
+    public static final RegistryObject<Item> FUEL_SAMPLE = ITEMS.register("fuel_sample",
+            () -> new FuelItem(new Item.Properties(),400));
 
 
     public static void register(IEventBus eventBus) {

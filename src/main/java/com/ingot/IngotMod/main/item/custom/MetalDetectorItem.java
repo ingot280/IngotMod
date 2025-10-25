@@ -1,5 +1,6 @@
 package com.ingot.IngotMod.main.item.custom;
 
+import com.ingot.IngotMod.main.util.ModTags;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -42,12 +43,12 @@ public class MetalDetectorItem extends Item {
     }
 
     private void outputValuableCoordinates(BlockPos blockPos, Player player, Block block, UseOnContext pContext) {
-        player.sendSystemMessage(Component.literal("Found"+ I18n.get(block.getDescriptionId())+ " at("+
+        player.sendSystemMessage(Component.literal("Found "+ I18n.get(block.getDescriptionId())+ " at("+
                 blockPos.getX()+", "+blockPos.getY()+", "+blockPos.getZ()+")"));
         pContext.getItemInHand().hurtAndBreak(1, pContext.getPlayer(),player1 -> player.broadcastBreakEvent(player.getUsedItemHand()));
     }
 
     private boolean isValuableBlock(BlockState state) {
-        return state.is(Blocks.IRON_ORE);
+        return state.is(ModTags.Blocks.METAL_DETECTOR_VALUABLES);
     }
 }

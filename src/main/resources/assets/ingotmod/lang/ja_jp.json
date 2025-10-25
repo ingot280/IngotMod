@@ -6,5 +6,7 @@
   "creativetab.ingot_tab": "インゴットmod",
 
   "block.ingotmod.cherryiron_block": "桜鉄ブロック",
-  "block.ingotmod.melon_block": "スイカブロック"
+  "block.ingotmod.melon_block": "スイカブロック",
+
+  "tooltip.ingotmod.sakuramochi_ingot.tooltip": "甘くて美味しい！"
 }
