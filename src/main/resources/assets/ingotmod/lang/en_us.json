@@ -16,6 +16,7 @@
   "block.ingotmod.lapis_ingot_block": "Block of Lapis Ingot",
   "block.ingotmod.honeycomb_ingot_block": "Block of Honeycomb Ingot",
   "block.ingotmod.poison_potion_block": "Block of Poison Ingot",
+  "block.ingotmod.amethyst_ingot_block": "Block of Amethyst Ingot",
 
   "tooltip.ingotmod.sakuramochi_ingot.tooltip": "§d Very Sweet!",
   "item.ingotmod.metaldetectoritem.blocknotfound": "No valuable Found!"

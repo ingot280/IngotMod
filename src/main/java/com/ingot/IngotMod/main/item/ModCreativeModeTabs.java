@@ -37,6 +37,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.HONEYCOMB_INGOT_BLOCK.get());
                         pOutput.accept(ModBlocks.POISON_POTION_BLOCK.get());
                         pOutput.accept(ModBlocks.LAPIS_INGOT_BLOCK.get());
+                        pOutput.accept(ModBlocks.AMETHYST_INGOT_BLOCK.get());
 //                        Other
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
                         pOutput.accept(ModBlocks.SOUND_BLOCK.get());

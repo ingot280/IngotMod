@@ -28,6 +28,8 @@ public class ModBlocks {
             ()-> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.CHERRY_WOOD).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> MELON_BLOCK = registerBlock("melon_block",
             ()-> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.WOOD).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> AMETHYST_INGOT_BLOCK = registerBlock("amethyst_ingot_block",
+            ()-> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> HONEYCOMB_INGOT_BLOCK = registerBlock("honeycomb_ingot_block",
             ()-> new Block(BlockBehaviour.Properties.copy(Blocks.HONEYCOMB_BLOCK)));
     public static final RegistryObject<Block> POISON_POTION_BLOCK = registerBlock("poison_potion_block",

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item":"ingotmod:amethyst_ingot_block"
+    }
+  ],
+  "result":{
+    "item": "ingotmod:amethyst_ingot",
+    "count": 9
+  }
+}

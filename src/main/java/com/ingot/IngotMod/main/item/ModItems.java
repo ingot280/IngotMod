@@ -23,6 +23,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> LAPIS_INGOT = ITEMS.register("lapis_ingot",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> AMETHYST_INGOT = ITEMS.register("amethyst_ingot",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
             () -> new MetalDetectorItem(new Item.Properties().durability(64)));
     public static final RegistryObject<Item> SAKURAMOCHI_INGOT = ITEMS.register("sakuramochi_ingot",
