@@ -26,6 +26,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.POISON_POTION_INGOT.get());
                         pOutput.accept(ModItems.LAPIS_INGOT.get());
                         pOutput.accept(ModItems.SAKURAMOCHI_INGOT.get());
+                        pOutput.accept(ModItems.AMETHYST_INGOT.get());
 //                        Vanilla Items
                         pOutput.accept(Items.GOLD_INGOT);
                         pOutput.accept(Items.IRON_INGOT);
