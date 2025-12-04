@@ -28,6 +28,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.SAKURAMOCHI_INGOT.get());
                         pOutput.accept(ModItems.AMETHYST_INGOT.get());
                         pOutput.accept(ModItems.DIAMOND_INGOT.get());
+                        pOutput.accept(ModItems.GUNPOWDER_INGOT.get());
 //                        Vanilla Items
                         pOutput.accept(Items.GOLD_INGOT);
                         pOutput.accept(Items.IRON_INGOT);
@@ -41,6 +42,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.LAPIS_INGOT_BLOCK.get());
                         pOutput.accept(ModBlocks.AMETHYST_INGOT_BLOCK.get());
                         pOutput.accept(ModBlocks.DIAMOND_INGOT_BLOCK.get());
+                        pOutput.accept(ModBlocks.GUNPOWDER_INGOT_BLOCK.get());
 //                        Other
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
                         pOutput.accept(ModBlocks.SOUND_BLOCK.get());

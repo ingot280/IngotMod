@@ -7,6 +7,7 @@
   "item.ingotmod.sakuramochi_ingot": "Sakuramochi ingot",
   "item.ingotmod.amethyst_ingot": "Amethyst ingot",
   "item.ingotmod.diamond_ingot": "Diamond ingot",
+  "item.ingotmod.gunpowder_ingot": "Gunpowder ingot",
   "item.ingotmod.metal_detector": "Metal detector",
 
 
@@ -20,6 +21,7 @@
   "block.ingotmod.poison_potion_block": "Block of Poison Ingot",
   "block.ingotmod.amethyst_ingot_block": "Block of Amethyst Ingot",
   "block.ingotmod.diamond_ingot_block": "Block of Diamond Ingot",
+  "block.ingotmod.gunpowder_ingot_block": "Block of Gunpowder Ingot",
 
   "tooltip.ingotmod.sakuramochi_ingot.tooltip": "§d Very Sweet!",
   "item.ingotmod.metaldetectoritem.blocknotfound": "No valuable Found!"

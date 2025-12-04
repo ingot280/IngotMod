@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ingotmod:block/gunpowder_ingot_block"
+    }
+  }
+}

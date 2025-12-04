@@ -38,9 +38,11 @@ public class ModBlocks {
             ()-> new PoisonBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)));
     public static final RegistryObject<Block> LAPIS_INGOT_BLOCK = registerBlock("lapis_ingot_block",
             ()-> new LapisBlock(BlockBehaviour.Properties.copy(Blocks.LAPIS_BLOCK).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> GUNPOWDER_INGOT_BLOCK = registerBlock("gunpowder_ingot_block",
+            ()-> new Block(BlockBehaviour.Properties.copy(Blocks.SANDSTONE).sound(SoundType.SAND)));
+// 以下チュートリアル製
     public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
             ()-> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.LAPIS_BLOCK).requiresCorrectToolForDrops()));
-
     public static final RegistryObject<Block> EXAMPLE_ORE = registerBlock("example_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3,6)));
